@@ -1,0 +1,550 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.topnav{
+    display: flex;
+    border-bottom:  dotted 2px gray ;
+    height: 18vh;
+    
+}
+.navbar{
+    display: flex;
+    margin-left: 190px;
+    margin-top: 40px;
+    gap: 25px;
+    font-size: 14px;
+    
+   
+}
+li{
+    list-style: none;
+}
+.hexa{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.home{
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.302);
+}
+.collection{
+    display: flex;
+    
+    
+}
+.hexashop{
+    
+    background-image: url(left-banner-image.jpg);
+    background-position: cover;
+    margin-top: 30px;
+    text-align: center;   
+    width: 50%;
+    height: 90vh;
+    margin-left: 20px;
+}
+.hexashop h1{
+    margin-top: 250px;
+    color: white;
+    font-size: 40px;
+}
+.hexashop p{
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-right: 90px;
+    font-style: italic;
+}
+.hexashop button{
+    background-color: unset;
+    color: white;
+    border: solid white 1px;
+    margin-top: 30px;
+    margin-right: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.models{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    gap: 13px;
+    text-align: center;
+
+}
+.clothes1{
+    background-image: url(baner-right-image-01.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.clothes2{
+    background-image: url(baner-right-image-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.clothes3{
+    background-image: url(baner-right-image-03.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.clothes4{
+    background-image: url(baner-right-image-04.jpg);
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+#conntent{
+    width: 295px;
+    height: 44vh;
+
+    
+}
+.clothes1 h1{
+    margin-top: 90px;
+    color: white;
+}
+.clothes1 p{
+    margin-top: 6px;
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.clothes2 h1{
+    margin-top: 90px;
+    color: white;
+}
+.clothes2 p{
+    margin-top: 6px;
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.clothes3 h1{
+    margin-top: 90px;
+    color: white;
+}
+.clothes3 p{
+    margin-top: 6px;
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.clothes4 h1{
+    margin-top: 90px;
+    color: white;
+}
+.clothes4 p{
+    margin-top: 6px;
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.boyswear{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.latest{
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.latest p{
+    font-style: italic;
+    margin-top: 10px;
+    font-family: 300;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.434);
+}
+.boyswear h2{
+    margin-top: 20px;
+}
+.boyswear p{
+    color: rgba(0, 0, 0, 0.629);
+    font-family: 200;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.womens{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.womencontent{
+    margin-top: 90px;
+    margin-left: 40px;
+}
+.womencontent p{
+    font-style: italic;
+    margin-top: 10px;
+    font-family: 300;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.434);
+}
+.womens h2{
+    margin-top: 20px;
+
+}
+.womens p{
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.491);
+    font-weight: 600;
+    
+
+}
+.kidcontent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.kidscoll h2{
+    margin-top: 60px;
+    margin-left: 30px;
+
+}
+.kidscoll p{
+    margin-left: 30px;
+}
+.kidcontent h2{
+    margin-top: 30px;
+}
+.kidcontent p{
+    color: rgba(0, 0, 0, 0.245);
+    font-weight: 600;
+    font-size: 14px;
+    
+
+
+}
+.dotline1{
+    margin-top: 2rem;
+    border-bottom: dotted 2px gray;
+    border-style: none none dotted;
+
+}
+.dotline2{
+    margin-top: 2rem;
+    border-bottom: dotted 2px gray;
+    border-style: none none dotted;
+
+}
+.dotlineb{
+    margin-top: 2rem;
+    border-bottom: dotted 2px gray;
+    border-style: none none dotted;
+
+}
+.dotlinekid{
+    margin-top: 2rem;
+    border-bottom: dotted 2px gray;
+    border-style: none none dotted;
+
+}
+.kidscoll p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.647);
+    font-style: italic;
+}
+.product{
+    display: flex;
+}
+.productcontent{
+    margin-top: 90px;
+    margin-left: 70px;
+}
+.para1{
+    margin-top: 10px;
+    color: rgba(145, 144, 144, 0.883);
+    font-size: 13px;
+    font-family: 600;
+    
+
+}
+.para2{
+    margin-top: 30px;
+    color: rgba(145, 144, 144, 0.883);
+    font-size: 13px;
+    font-family: 600;
+    
+}
+.productcontent h6{
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 13px;
+}
+.para3{
+    margin-top: 40px;
+    color: rgba(145, 144, 144, 0.995);
+    font-size: 13px;
+    font-family: 600;
+    
+
+}
+.productcontent button{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.gridbag{
+display: grid;
+grid-template-columns: auto auto ;
+grid-template-rows: auto auto ;
+margin-top: 30px;
+margin-left: 8rem;
+gap: 18px;
+}
+.bags{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-color: rgba(128, 128, 128, 0.225);
+}
+.bags p{
+    font-weight: 300;
+    color: gray;
+    font-style: italic;
+    font-size: 13px;
+}
+
+
+.dtype{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(128, 128, 128, 0.202);
+    }
+    .dtype p{
+        font-weight: 300;
+        color: rgb(128, 128, 128);
+        font-style: italic;
+        font-size: 13px;
+    }
+    .dotlinegrid{
+        margin-top: 2rem;
+        border-bottom: dotted 2px gray;
+        border-style: none none dotted;
+    
+    
+
+    }
+  .socialcontent{
+    margin-top: 60px;
+    margin-left: 70px;
+  }
+  .socialcontent p{
+    color: rgba(0, 0, 0, 0.386);
+font-size: 13px;
+font-weight: 700;
+font-style: italic;
+    
+  }
+.mediapic{
+    display: flex;
+    margin-left: 30px;
+    margin-left: 30px;
+    margin-top: 60px;
+
+}
+.mediadot{
+    margin-top: 4rem;
+    border-bottom: dotted 2px gray;
+    border-style: none none dotted;
+
+}
+.subscribe p{
+    color: rgba(0, 0, 0, 0.694);
+    font-size: 13px;
+    font-weight: 700;
+    font-style: italic;
+}
+.news{
+    display: flex;
+    flex: 1;
+    width: 95%;
+}
+.info-item-1{
+    margin-top: 60px;
+    margin-left: 12rem;
+}
+.info-item-1 h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.info-item-1 p{
+    font-weight: lighter;
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+.info-item-1 button{
+    background-color: unset;
+    margin-top: 30px;
+    padding: 10px 50px;
+    width: 250px;
+    text-align: left;
+    font-size: small;
+}
+.info-item-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    flex: 1;
+    margin-top: 60px;
+    margin-left: 12rem;
+    gap: 20px;
+}
+.info-item-2 p{
+    font-weight: bold;
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+}
+.info-item-1 button{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: 700;
+    font-family: 12px;
+}
+.info-item-1 p{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.508);
+    font-size: 13px;
+    font-weight: 700;
+}
+.lastfoter{
+    display: flex;
+    margin-top: 130px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.805);
+    height: 100vh;
+}
+
+.shooping{
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.991);
+
+}
+.hexalast{
+    margin-left: 120px;
+    margin-top: 60px;
+    font-size: 15px;
+}
+.usefull{
+    margin-left: 130px;
+    font-size: 15px;
+    margin-top: 60px;
+}
+.helpcontent{
+    margin-top: 60px;
+    font-size: 15px;
+    margin-left: 160px;
+}
+.hexalast p{
+    margin-top: 30px;
+}
+
+.last-line{
+    width: 75%;
+    margin-top: 15px;
+    margin-left: 11rem;
+}
+footer{
+    background-color: rgb(37, 37, 37);
+    height: 70vh;
+    margin-top: 50px;
+}
+
+.footering-content{
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    width: 75%;
+    flex: 1;
+    margin-left: 12rem;
+}
+.lastest-logo{
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+.lastestlogo p{
+    color: white;
+    margin-top: 20px;
+}
+.lastestitems {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex: 1;
+    color: white;
+    margin-top: 50px;
+
+}
+.lastestitem-1{
+    margin-left: 50px;
+}
+.lastestitem-1 h4{
+    padding-bottom: 25px;
+}
+.lastestitem-1 p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.lastestitem-2 h4{
+    padding-bottom: 25px;
+}
+.lastestitem-2 p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.lastestitem-3 h4{
+    padding-bottom: 25px;
+}
+.lastestitem-3 p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.lastestline{
+    width: 75%;
+    margin-top: 15px;
+    margin-left: 11rem;
+}
+.lastestpara{
+    margin-top: 20px;
+    
+    color: white;
+    text-align: center;
+}
+.lastestlogo img{
+    margin-top: 20px;
+}
+
+
+
+
+
+
